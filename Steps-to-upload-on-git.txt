@@ -1,0 +1,2 @@
+1. create new repo on github 
+2. use git init command in local folder's terminal 
