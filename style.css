@@ -402,7 +402,7 @@
     }
     .hero-para{
         /* background-color: red; */
-        width: 400px;
+        /* width: 400px; */
         font-size: 1rem;
     }
     .heroBtn {
@@ -484,7 +484,7 @@
 
     .projects{
         /* background-color: aqua; */
-        width: 300px;
+        /* width: 300px; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -499,7 +499,7 @@
 
     .project-btn-container{
         /* background-color: aqua; */
-        width: 427px;
+        /* width: 427px; */
         height: auto;
     
     }
