@@ -485,7 +485,7 @@
     }
 
     .projects{
-        background-color: aqua;
+        /* background-color: aqua; */
         /* width: 300px; */
         display: flex;
         flex-direction: row;
