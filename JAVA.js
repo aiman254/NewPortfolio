@@ -9,11 +9,22 @@
 // }
 // })
 
-const burger = document.querySelector('.burger');
-const navMenu = document.querySelector('.titles-div');
+const burger = document.getElementById('burger');
+const navMenu = document.getElementById('titles-div');
+const burgerIcon = document.getElementById('burgerIcon')
+const crossIcon = document.getElementById('crossIcon');
+const titlesDiv = document.getElementById('titlesDiv');
 
 burger.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
+  console.log(navMenu);
   
-});
+  navMenu.classList.toggle('active');
+  if (navMenu.classList.contains('active')) {
+    crossIcon.style.display = 'flex'
+    burgerIcon.style.display = 'none'
+  } else {
+    crossIcon.style.display = 'none'
+    burgerIcon.style.display = 'flex'
+  }
 
+});

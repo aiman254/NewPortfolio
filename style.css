@@ -273,9 +273,11 @@
 }
 
 .footer-logo {
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    text-align: center;
+    /* gap: 20px; */
 
 }
 
@@ -286,7 +288,7 @@
     align-items: center;
 }
 
-.para1 {
+/* .para1 {
     color: #fff;
     font-size: 0.4rem;
     font-weight: bold;
@@ -303,7 +305,7 @@
     align-items: center;
     text-decoration: none;
     color: #000;
-}
+} */
 
 .footer-copyright {
     color: white;
@@ -316,7 +318,10 @@
     body {
         overflow-x: hidden;
     }
-
+     
+    /* .crossIcon{
+        display: none;
+       } */
     .nav-section {
         justify-content: space-between;
         padding: 1rem;
@@ -333,7 +338,25 @@
 
     }
 
-    .titles-div {
+
+     #burger {
+        display: block;
+        cursor: pointer;
+        color: #000;
+    }
+
+    #burgerIcon, #crossIcon{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    #crossIcon{
+        display: none;
+    }
+
+
+    #titles-div {
         display: none;
         flex-direction: column;
         background-color: #eae7e7;
@@ -349,7 +372,7 @@
 
     }
 
-    .titles-div.active {
+    #titles-div.active {
         display: flex;
     }
 
@@ -361,31 +384,28 @@
         font-size: 0.8rem;
     }
 
-    .burger {
-        /* background-color: #fce807; */
-        display: block;
-        cursor: pointer;
-        font-size: 1.2rem;
-        color: #000;
-        /* width: 46px; */
-    }
-
+   
+    
     @media (min-width: 601px) {
         .burger {
             display: none;
         }
+/*         
+       .crossIcon{
+        display: none;
+       } */
     }
 
 
 
     .hero-sec {
         /* background-color: aqua; */
-        margin-bottom: 0.1em;
+        /* margin-bottom: 0.1em; */
         display: flex;
         flex-direction: column;
         /* padding: 8px 100px; */
         gap: 1px;
-        margin: 2em;
+        /* margin: 2em; */
     }
 
     .hero-logo-image {
@@ -397,19 +417,17 @@
     }
 
     .hero-description {
-        /* background-color: red; */
         width: 100%;
         text-align: center;
         font-size: 1rem;
     }
     .hero-para{
-        /* background-color: red; */
-        /* width: 400px; */
         font-size: 1rem;
+        text-align: center;
     }
     .heroBtn {
         /* background-color: red; */
-        margin: 1.3em;
+        /* margin: 1.3em; */
         width: auto;
         font-size: 0.6rem;
         border-radius: 1em;
@@ -418,10 +436,9 @@
 
 
     .skill-sec {
-        /* margin: 1.5em; */
         display: flex;
-        /* flex-wrap: wrap; */
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         padding: 20px 0px;
@@ -472,7 +489,7 @@
     .project-section{
         /* background-color: red; */
         padding: 0.8em;
-        /* margin: 1.5em; */
+        margin: 1.5em;
     }
     .project-heading{
         /* background-color: aqua; */
@@ -491,7 +508,7 @@
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
-        margin: 1.5em;
+        margin: 1em;
 
     }
 
@@ -508,6 +525,7 @@
         /* background-color: aqua; */
         /* width: 427px; */
         height: auto;
+        margin-top: 1.5em;
     
     }
     .project-Btn{
@@ -520,39 +538,17 @@
     }
 
     .footer{
-        /* background-color: red; */
+        margin-top: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2%;
+        gap: 0.4em;
     }
     .footer-gmailID{
-        /* background-color: #000; */
         font-size: 0.5em;
-        /* margin: 0%; */
-        padding: 1em;
     }
     .footer-logo{
-        /* margin: 0%; */
-        /* background-color: aqua; */
-        gap: 2.5%;
-        width: 112px;
-
+        gap: 0.7em;
     }
 
-    
-    .footer-para{
-        /* background-color: rgb(85, 0, 255); */
-        padding: 0.1em;
-        margin: 0.3em;
-       
-    }
-    .para1{
-        /* background-color:aquamarine; */
-         font-size: 0.1em;
-    }
-    .para2{
-        font-size:0.1em ;
-        padding: 1em;
-    }
 }
