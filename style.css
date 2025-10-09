@@ -485,10 +485,11 @@
     }
 
     .projects{
-        /* background-color: aqua; */
+        background-color: aqua;
         /* width: 300px; */
         display: flex;
         flex-direction: row;
+        align-items: center;
         flex-wrap: wrap;
         margin: 1.5em;
 
@@ -496,8 +497,9 @@
 
     .project-img{
         /* background-color: red; */
-        width: 100px;
+        width: 90px;
         height: 90px;
+        display: block;
     }
 
     .project-btn-container{
