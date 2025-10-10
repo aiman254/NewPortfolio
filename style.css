@@ -325,6 +325,14 @@
     .nav-section {
         justify-content: space-between;
         padding: 1rem;
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0%;
+        z-index: 1000;
+        background-color: #fff;
+        background-color: red;
+
     }
 
     .logo {
@@ -343,6 +351,7 @@
         display: block;
         cursor: pointer;
         color: #000;
+        
     }
 
     #burgerIcon, #crossIcon{
@@ -363,10 +372,9 @@
         position: absolute;
         top: 70px;
         right: 2px;
-        /* width: 200px; */
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 15px 0;
+        padding: 10px 20px;
         text-align: center;
         margin: 0;
 
@@ -376,7 +384,12 @@
         display: flex;
     }
 
+    .resumeBtn{
+       /* background-color: red; */
+      padding: 1em;
 
+        
+    }
     .title-text,
     .resumeBtn,
     .mode {
@@ -390,26 +403,23 @@
         .burger {
             display: none;
         }
-/*         
-       .crossIcon{
-        display: none;
-       } */
+
     }
 
 
 
     .hero-sec {
         /* background-color: aqua; */
-        /* margin-bottom: 0.1em; */
         display: flex;
         flex-direction: column;
         /* padding: 8px 100px; */
         gap: 1px;
-        /* margin: 2em; */
     }
 
     .hero-logo-image {
         width: 100px;
+        margin-top: 2rem;
+        z-index: 1000;
     }
 
     .intro {
