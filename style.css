@@ -331,7 +331,7 @@
         right: 0%;
         z-index: 1000;
         background-color: #fff;
-        background-color: red;
+        /* background-color: red; */
 
     }
 
@@ -370,13 +370,13 @@
         flex-direction: column;
         background-color: #eae7e7;
         position: absolute;
-        top: 70px;
-        right: 2px;
+        top: 50px;
+        right: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 10px 20px;
         text-align: center;
-        margin: 0;
+        margin: 1rem;
 
     }
 
